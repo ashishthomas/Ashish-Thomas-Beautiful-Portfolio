@@ -15,7 +15,6 @@ export const Home = () => {
       <ThemeToggle />
       {/* Background Effects */}
       <StarBackground />
-
       {/* Navbar */}
       <Navbar />
       {/* Main Content */}
@@ -26,7 +25,6 @@ export const Home = () => {
         <ProjectsSection />
         <ContactSection />
       </main>
-
       {/* Footer */}
       <Footer />
     </div>

@@ -16,24 +16,53 @@ export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   setIsSubmitting(true);
+
+  //   setTimeout(() => {
+  //     toast({
+  //       title: "Message sent!",
+  //       description: "Thank you for your message. I'll get back to you soon.",
+  //     });
+  //     setIsSubmitting(false);
+  //   }, 1500);
+  // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     setIsSubmitting(true);
 
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+
+    const mailto = `mailto:ashishthomas13@zohomail.in?subject=Contact from ${encodeURIComponent(
+      name
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
+
+    window.location.href = mailto;
+
     setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
       setIsSubmitting(false);
-    }, 1500);
+      toast({
+        title: "Email client opened!",
+        description:
+          "Please complete and send your message from your email client.",
+      });
+    }, 1000);
   };
+
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Get In <span className="text-primary"> Touch</span>
+          Get In <span className="text-primary"> Touch </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">

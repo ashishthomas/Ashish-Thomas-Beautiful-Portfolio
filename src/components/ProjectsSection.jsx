@@ -3,12 +3,13 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Kira Ecommerce Web App",
+    description:
+      "A modern, user-friendly e-commerce app for beauty products with authentication, reviews, cart, and seamless shopping experience",
+    image: "/projects/Kira-project.png",
+    tags: ["React", "Typescript", "TailwindCSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ashishthomas/Kira-Beauty-Ecommerce",
   },
   {
     id: 2,

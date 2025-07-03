@@ -16,20 +16,6 @@ export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   setIsSubmitting(true);
-
-  //   setTimeout(() => {
-  //     toast({
-  //       title: "Message sent!",
-  //       description: "Thank you for your message. I'll get back to you soon.",
-  //     });
-  //     setIsSubmitting(false);
-  //   }, 1500);
-  // };
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -122,17 +108,17 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/ashish-sunil-thomas-a34334137/"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://x.com/ast_developer" target="_blank">
                   <Twitter />
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
                 </a>
               </div>
             </div>

@@ -13,13 +13,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Trade Excelsior App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A modern, user-friendly app for managing books, onboarding checklists, and user support with role-based routing and a clean UI built using React. ",
+    image: "/projects/Trade-Excelsior-project.png",
+    tags: ["React", "RBRouting", "MUI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ashishthomas/Trade-Excelsior.git",
   },
   {
     id: 3,

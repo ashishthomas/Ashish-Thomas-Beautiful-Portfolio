@@ -1,12 +1,11 @@
 import {
-  Instagram,
   Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
+  Code2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -117,8 +116,13 @@ export const ContactSection = () => {
                 <a href="https://x.com/ast_developer" target="_blank">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
-                  <Instagram />
+
+                <a
+                  href="https://dev.to/ashish_sunilthomas_1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Code2 />
                 </a>
               </div>
             </div>
@@ -145,7 +149,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Ashish Sunil Thomas..."
+                  placeholder="Enter your name"
                 />
               </div>
 
@@ -163,7 +167,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="Enter your email"
                 />
               </div>
 
@@ -180,7 +184,7 @@ export const ContactSection = () => {
                   name="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="Type your message here..."
                 />
               </div>
 

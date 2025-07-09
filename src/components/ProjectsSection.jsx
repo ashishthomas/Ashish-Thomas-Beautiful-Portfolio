@@ -47,13 +47,13 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover p-2 sm:p-0"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-48 min-h-[200px] overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -61,7 +61,7 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
@@ -73,8 +73,11 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <h3 className="text-xl font-semibold mb-1 text-center">
+                  {" "}
+                  {project.title}
+                </h3>
+                <p className="text-muted-foreground text-sm mb-4 text-center">
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">

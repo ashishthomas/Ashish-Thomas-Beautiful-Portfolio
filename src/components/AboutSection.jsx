@@ -9,8 +9,8 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="space-y-6 mb-8 md:mb-0">
             <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
 
             <p className="text-muted-foreground">
@@ -26,7 +26,7 @@ export const AboutSection = () => {
               landscape.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center items-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
                 Get In Touch

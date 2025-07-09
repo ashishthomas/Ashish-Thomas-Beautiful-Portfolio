@@ -13,7 +13,6 @@ const skills = [
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
   { name: "MySql", level: 70, category: "backend" },
-  { name: "SpringBoot", level: 65, category: "backend" },
   { name: "Java", level: 60, category: "backend" },
 
   // Tools
@@ -55,11 +54,11 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
-              className="bg-card p-6 rounded-lg shadow-xs card-hover"
+              className="bg-card p-6 rounded-lg shadow-xs card-hover text-center"
             >
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>

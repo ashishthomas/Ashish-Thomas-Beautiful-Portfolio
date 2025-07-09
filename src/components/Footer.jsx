@@ -10,7 +10,8 @@ export const Footer = () => {
       </p>
       <a
         href="#hero"
-        className="absolute right-8 p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
+        className="fixed bottom-4 right-4 sm:absolute sm:bottom-auto sm:right-8 p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
+        style={{ zIndex: 60 }}
       >
         <ArrowUp size={20} />
       </a>

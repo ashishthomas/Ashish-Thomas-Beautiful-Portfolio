@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Trade Excelsior App",
     description:
-      "A modern, user-friendly app for managing books, onboarding checklists, and user support with role-based routing and a clean UI built using React. ",
+      "A modern, user-friendly app for managing books, onboarding checklists, and user support with role-based-routing built using React. ",
     image: "/projects/Trade-Excelsior-project.png",
     tags: ["React", "RBRouting", "MUI"],
     demoUrl: "#",
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1 text-center">
+                <h3 className="text-xl font-semibold mb-1 text-center ">
                   {" "}
                   {project.title}
                 </h3>
@@ -82,13 +82,6 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"

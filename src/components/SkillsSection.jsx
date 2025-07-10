@@ -11,9 +11,9 @@ const skills = [
   { name: "MUI", level: 70, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "MySql", level: 70, category: "backend" },
-  { name: "Java", level: 60, category: "backend" },
+  { name: "Node.js", level: 50, category: "backend" },
+  { name: "MySql", level: 60, category: "backend" },
+  { name: "Java", level: 50, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },

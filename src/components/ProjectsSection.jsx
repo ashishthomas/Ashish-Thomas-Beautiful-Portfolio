@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Trade Excelsior App",
+    title: "Trade Excelsior Web App",
     description:
       "A modern, user-friendly app for managing books, onboarding checklists, and user support with role-based-routing built using React. ",
     image: "/projects/Trade-Excelsior-project.png",
@@ -23,13 +23,14 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Sizzling Delights Restaurant Web App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "A web platform showcasing menu, services, events and online ordering / reservations for a modern restaurant experience",
+    image: "/projects/Sizzling_Delights_Website.jpg",
+    tags: ["HTML", "CSS", "Bootstrap", "Js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl:
+      "https://github.com/ashishthomas/Sizzling-Restaurant-Website.git",
   },
 ];
 

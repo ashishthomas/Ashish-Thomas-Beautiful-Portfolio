@@ -70,7 +70,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:ashishthomas13@zohomail.in"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     ashishthomas13@zohomail.in

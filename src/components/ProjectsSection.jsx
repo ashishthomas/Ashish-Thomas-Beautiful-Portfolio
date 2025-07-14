@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover p-2 sm:p-0"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover p-2 sm:p-0 cursor-pointer"
             >
               <div className="h-48 min-h-[200px] overflow-hidden">
                 <img
@@ -99,7 +99,7 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-12">
           <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            className="cosmic-button w-fit flex items-center mx-auto gap-2 cursor-pointer"
             target="_blank"
             href="https://github.com/ashishthomas"
           >

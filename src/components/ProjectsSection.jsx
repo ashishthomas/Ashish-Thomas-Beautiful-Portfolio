@@ -25,12 +25,22 @@ const projects = [
     id: 3,
     title: "Sizzling Delights Restaurant Web App",
     description:
-      "A web platform showcasing menu, services, events and online ordering / reservations for a modern restaurant experience",
+      "A web platform showcasing menu, services, events and online reservations for a modern restaurant experience",
     image: "/projects/Sizzling_Delights_Website.jpg",
     tags: ["HTML", "CSS", "Bootstrap", "Js"],
     demoUrl: "#",
     githubUrl:
       "https://github.com/ashishthomas/Sizzling-Restaurant-Website.git",
+  },
+  {
+    id: 4,
+    title: "Online Job Portal",
+    description:
+      "A job portal with listings, application form, and user dashboard using React, TypeScript, Tailwind, and Vite.",
+    image: "/projects/Online-Dream-Career-Portal.png",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/ashishthomas/Online-Job-Portal",
   },
 ];
 

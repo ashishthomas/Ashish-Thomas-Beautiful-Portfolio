@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/Kira-project.png",
     tags: ["React", "Typescript", "TailwindCSS"],
     demoUrl: "#",
-    githubUrl: "https://github.com/ashishthomas/Kira-Beauty-Ecommerce",
+    githubUrl: "https://github.com/ashishthomas/Kira-Beauty-Ecommerce.git",
   },
   {
     id: 2,
@@ -38,9 +38,19 @@ const projects = [
     description:
       "A job portal with listings, application form, and user dashboard using React, TypeScript, Tailwind, and Vite.",
     image: "/projects/Online-Dream-Career-Portal.png",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    tags: ["React", "TypeScript", "Tailwind CSS"],
     demoUrl: "#",
-    githubUrl: "https://github.com/ashishthomas/Online-Job-Portal",
+    githubUrl: "https://github.com/ashishthomas/Online-Job-Portal.git",
+  },
+  {
+    id: 5,
+    title: "FlowPay - Payment App",
+    description:
+      "A modern payment application enabling secure transactions, fee calculation, and currency management with user-friendly dashboards for personal and business users.",
+    image: "/projects/FlowPay-Payment-Application.png",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/ashishthomas/Payment-flow-app.git",
   },
 ];
 

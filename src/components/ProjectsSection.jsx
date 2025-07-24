@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Sizzling Delights Restaurant Web App",
+    title: "Sizzling Delights Restaurant Website",
     description:
       "A web platform showcasing menu, services, events and online reservations for a modern restaurant experience",
     image: "/projects/Sizzling_Delights_Website.jpg",

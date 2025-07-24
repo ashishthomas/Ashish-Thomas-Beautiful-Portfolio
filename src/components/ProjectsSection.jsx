@@ -36,7 +36,7 @@ const projects = [
     id: 4,
     title: "Online Job Portal",
     description:
-      "A job portal with listings, application form, and user dashboard using React, TypeScript, Tailwind, and Vite.",
+      "A modern online job portal for job seekers and employers, featuring job listings, applications, filtering, and user authentication.",
     image: "/projects/Online-Dream-Career-Portal.png",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     demoUrl: "#",

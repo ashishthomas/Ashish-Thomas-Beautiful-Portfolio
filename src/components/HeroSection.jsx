@@ -8,6 +8,17 @@ export const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10 space-y-8 sm:space-y-12">
         <div className="space-y-6">
+          {/* ✅ Animated Profile Image */}
+          <div className="flex justify-center">
+            <img
+              src="/projects/ashish_professional.png"
+              alt="Ashish Sunil Thomas"
+              className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-40 lg:h-40
+               rounded-full border-4 border-primary shadow-xl object-cover
+               opacity-0 animate-fade-in scale-90 hover:scale-100 transition-all duration-500 ease-in-out"
+            />
+          </div>
+
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-center">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">

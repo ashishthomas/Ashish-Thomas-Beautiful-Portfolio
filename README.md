@@ -42,7 +42,7 @@ In this tutorial, you'll learn how to build a modern portfolio website using **R
 - **Lucide Icons** – Clean and beautiful icon pack
 - **Radix UI** – Accessible component primitives
 - **TypeScript (optional)** – Type safety and tooling
-- **GitHub & Vercel** – Deployment
+- **GitHub, netlify and Vercel** – Deployment
 
 ---
 

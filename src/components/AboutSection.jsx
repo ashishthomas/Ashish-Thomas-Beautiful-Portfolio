@@ -32,12 +32,36 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              <a
+              {/* <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
-              </a>
+              </a> */}
+
+              <div className="relative group">
+                <button className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 focus:outline-none">
+                  Download CV
+                </button>
+                <div className="absolute left-0 mt-2 w-40 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+                  <a
+                    href="/CV/Ashish Sunil Thomas Front End Developer Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-2 hover:bg-primary/10 text-primary"
+                  >
+                    PDF Format
+                  </a>
+                  <a
+                    href="/CV/Ashish Sunil Thomas Front End Developer Resume.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-2 hover:bg-primary/10 text-primary"
+                  >
+                    Word Format
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 

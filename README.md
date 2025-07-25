@@ -3,7 +3,7 @@
 <div align="center">
   <br />
   <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="./Ashish Personal Portfolio website .png" alt="Portfolio Website Banner">
+    <img src="./public/projects/Ashish Personal Portfolio website.png" alt="Portfolio Website Banner">
   </a>
   <br />
   <div>

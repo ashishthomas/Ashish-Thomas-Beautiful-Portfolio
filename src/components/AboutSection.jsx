@@ -40,7 +40,7 @@ export const AboutSection = () => {
               </a> */}
 
               <div className="relative group">
-                <button className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 focus:outline-none">
+                <button className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 focus:outline-none cursor-pointer">
                   Download CV
                 </button>
                 <div className="absolute left-0 mt-2 w-40 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">

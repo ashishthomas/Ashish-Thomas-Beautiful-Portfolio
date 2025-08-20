@@ -7,6 +7,7 @@ const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
+  { name: "Blog", path: "#blog" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
@@ -42,7 +43,7 @@ export const Navbar = () => {
         </a>
 
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8 items-center">
+        <div className="hidden md:flex space-x-8 items-center cursor-pointer">
           {navItems.map((item, key) => (
             <a
               key={key}

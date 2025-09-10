@@ -20,8 +20,8 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
+              I&apos;m passionate about creating elegant solutions to complex
+              problems, and I&apos;m  constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               landscape.
             </p>

@@ -20,7 +20,7 @@ export const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-center">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="opacity-0 animate-fade-in"> Hi, I&apos;m </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
               Ashish Sunil

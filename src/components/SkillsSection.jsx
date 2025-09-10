@@ -72,7 +72,7 @@ export const SkillsSection = () => {
 
               <div className="text-right mt-1">
                 <span className="text-sm text-muted-foreground">
-                  {skill.level}%
+                  {skill.level} %
                 </span>
               </div>
             </div>

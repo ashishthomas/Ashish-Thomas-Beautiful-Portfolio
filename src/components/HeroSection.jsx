@@ -11,7 +11,7 @@ export const HeroSection = () => {
           {/* ✅ Animated Profile Image */}
           <div className="flex justify-center">
             <img
-              src="/projects/ashish_professional.png"
+              src="/projects/Ashish_Professional.jpeg"
               alt="Ashish Sunil Thomas"
               className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-40 lg:h-40
                rounded-full border-4 border-primary shadow-xl object-cover

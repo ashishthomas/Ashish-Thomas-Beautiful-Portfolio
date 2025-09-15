@@ -8,7 +8,6 @@ export const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10 space-y-8 sm:space-y-12">
         <div className="space-y-6">
-          {/* ✅ Animated Profile Image */}
           <div className="flex justify-center">
             <img
               src="/projects/Ashish_Professional.jpeg"

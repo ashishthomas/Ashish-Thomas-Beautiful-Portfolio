@@ -21,7 +21,7 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               I&apos;m passionate about creating elegant solutions to complex
-              problems, and I&apos;m  constantly learning new technologies and
+              problems, and I&apos;m constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               landscape.
             </p>
@@ -31,13 +31,6 @@ export const AboutSection = () => {
                 {" "}
                 Get In Touch
               </a>
-
-              {/* <a
-                href=""
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
-              </a> */}
 
               <div className="relative group">
                 <button className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 focus:outline-none cursor-pointer">

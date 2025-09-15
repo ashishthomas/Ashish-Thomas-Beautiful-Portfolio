@@ -75,7 +75,6 @@ export const BlogSection = () => {
         </div>
       </div>
 
-      {/* Modal */}
       <AnimatePresence>
         {selectedPost && (
           <motion.div

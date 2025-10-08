@@ -52,7 +52,7 @@ export const ContactSection = () => {
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Have a project in mind or want to collaborate? Feel free to reach out.
-          I&apos;m  always open to discussing new opportunities.
+          I&apos;m always open to discussing new opportunities.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
@@ -105,7 +105,10 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
+              <h4 className="text-2xl font-semibold mb-6 text-center md:text-left">
+                {" "}
+                Connect With Me
+              </h4>
               <div className="flex space-x-4 justify-center">
                 <a
                   href="https://www.linkedin.com/in/ashish-sunil-thomas-a34334137/"

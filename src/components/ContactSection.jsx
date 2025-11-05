@@ -1,10 +1,9 @@
 import {
-  Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitter,
+  X,
   Code2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -31,7 +30,7 @@ export const ContactSection = () => {
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
 
-    window.location.href = mailto;
+    globalThis.location.href = mailto;
 
     setTimeout(() => {
       setIsSubmitting(false);
@@ -114,11 +113,21 @@ export const ContactSection = () => {
                 <a
                   href="https://www.linkedin.com/in/ashish-sunil-thomas-a34334137/"
                   target="_blank"
+                  rel="noreferrer"
+                  aria-label="LinkedIn"
                 >
-                  <Linkedin />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-6 w-6 text-primary"
+                    aria-hidden="true"
+                  >
+                    <path d="M4.98 3.5C4.98 4.88 3.85 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 1.12 4.98 3.5zM0.5 8h4v13h-4V8zm7 0h3.6v1.7h.05c.5-.94 1.72-1.94 3.55-1.94 3.8 0 4.5 2.5 4.5 5.75V21h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.61-2.38 3.28V21h-4V8z" />
+                  </svg>
                 </a>
                 <a href="https://x.com/ast_developer" target="_blank">
-                  <Twitter />
+                  <X />
                 </a>
 
                 <a
@@ -129,19 +138,18 @@ export const ContactSection = () => {
                   <Code2 />
                 </a>
               </div>
-            </div>
+          </div>
           </div>
 
           <div
             className="bg-card p-4 sm:p-8 rounded-lg shadow-xs"
-            onSubmit={handleSubmit}
           >
             <h3 className="text-2xl font-semibold mb-6 text-center md:text-left cursor-pointer">
               {" "}
               Send a Message
             </h3>
 
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label
                   htmlFor="name"

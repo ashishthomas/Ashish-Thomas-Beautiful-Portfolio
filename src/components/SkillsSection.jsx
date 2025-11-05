@@ -38,9 +38,9 @@ export const SkillsSection = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category, key) => (
+          {categories.map((category) => (
             <button
-              key={key}
+              key={category}
               onClick={() => setActiveCategory(category)}
               className={cn(
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize cursor-pointer",
@@ -55,9 +55,9 @@ export const SkillsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {filteredSkills.map((skill, key) => (
+          {filteredSkills.map((skill) => (
             <div
-              key={key}
+              key={skill.name}
               className="bg-card p-6 rounded-lg shadow-xs card-hover text-center"
             >
               <div className="text-left mb-4">

@@ -23,12 +23,13 @@ export const BlogSection = () => {
   }, [selectedPost]);
 
   return (
-    <section id="blog" className="py-20 transition-colors duration-500">
+    <section id="blogs" className="py-20 transition-colors duration-500">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">
           Latest <span className="text-primary">Blogs</span>
         </h2>
 
+        {/* ✅ BLOG GRID LIST */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
             <motion.div
@@ -37,12 +38,22 @@ export const BlogSection = () => {
               transition={{ type: "spring", stiffness: 200 }}
               className="p-6 rounded-2xl shadow-lg bg-white text-black dark:bg-purple-600 dark:text-white cursor-pointer"
             >
+              {/* ✅ IMAGE PREVIEW */}
+              {post.image && (
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-48 object-cover rounded-xl mb-4"
+                />
+              )}
+
               <h3 className="text-xl font-semibold mb-2 dark:text-white">
                 {post.title}
               </h3>
               <p className="text-sm text-gray-500 dark:text-black mb-3">
                 {post.date}
               </p>
+
               <p className="text-base text-gray-800 dark:text-gray-300 mb-4">
                 {post.excerpt}
               </p>
@@ -58,6 +69,7 @@ export const BlogSection = () => {
         </div>
       </div>
 
+      {/* ✅ MODAL */}
       <AnimatePresence>
         {selectedPost && (
           <motion.div
@@ -73,12 +85,24 @@ export const BlogSection = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 50, opacity: 0 }}
             >
+              {/* ✅ FULL IMAGE */}
+              {selectedPost.image && (
+                <img
+                  src={selectedPost.image}
+                  alt={selectedPost.title}
+                  className="w-full h-60 object-cover rounded-xl mb-6"
+                />
+              )}
+
               <h2 className="text-2xl font-bold mb-2 dark:text-white">
                 {selectedPost.title}
               </h2>
+
               <p className="text-sm text-gray-500 dark:text-black mb-4">
                 {selectedPost.date}
               </p>
+
+              {/* ✅ CONTENT */}
               <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
                 {selectedPost.content}
               </p>

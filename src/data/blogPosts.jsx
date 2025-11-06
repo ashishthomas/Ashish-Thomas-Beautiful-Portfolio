@@ -6,6 +6,8 @@ export const blogPosts = [
     date: "September 10, 2025",
     excerpt:
       "Vite changed the way I build React apps. Here’s why it’s better than Create React App in every way.",
+    image:
+      "/images/1. Why I Moved from CRA to Vite Performance Gains Explain.png",
     content: `
       Switching from Create React App (CRA) to Vite was one of the best development decisions I made.
       Vite offers instant server startup, faster HMR, lighter builds and superior DX.
@@ -22,6 +24,8 @@ export const blogPosts = [
     date: "September 02, 2025",
     excerpt:
       "Lazy loading reduces bundle size and improves page responsiveness. Here’s how I implemented it.",
+    image:
+      "/images/2. How I Improved Page Performance Using React Suspense + Lazy Loading.png",
     content: `
       Large bundles slow down pages, especially on low bandwidth networks.
       I used React.lazy + Suspense to load heavy components only when required.
@@ -41,6 +45,8 @@ export const blogPosts = [
     date: "August 25, 2025",
     excerpt:
       "Both styling solutions are popular. Here's how I judge them depending on the project.",
+    image:
+      "/images/3. Tailwind vs Styled Components — What I Prefer and Why.png",
     content: `
       Tailwind helps me build fast with utility-driven classes. Perfect for quick UI iteration.
       Styled Components gives more flexibility for component-level styling and is better for design systems.
@@ -59,6 +65,8 @@ export const blogPosts = [
     date: "August 18, 2025",
     excerpt:
       "Choosing a state manager depends on app complexity. Here’s what works best for me.",
+    image:
+      "/images/4. State Management When to Use Redux, Zustand, or Cntext API.png",
     content: `
       Not every app needs Redux. Most small-to-medium apps work well with Context API or Zustand.
 
@@ -79,6 +87,8 @@ export const blogPosts = [
     date: "August 10, 2025",
     excerpt:
       "A few simple optimizations took my Lighthouse score from 79 → 95.",
+    image:
+      "/images/5. How I Optimized Images & Fonts to Boost Core Web Vitals.png",
     content: `
       Performance isn't just about code — assets matter too.
 
@@ -99,6 +109,8 @@ export const blogPosts = [
     date: "August 02, 2025",
     excerpt:
       "React Query transformed how I handled API calls — no more manual loaders, caching, or repeated fetch logic.",
+    image:
+      "/images/6. React Query The Missing Layer Between Frontend & API.png",
     content: `
     Before React Query, I used useEffect + fetch/axios for every API request.
     It worked, but managing loading states, caching, refetching & background updates required boilerplate.

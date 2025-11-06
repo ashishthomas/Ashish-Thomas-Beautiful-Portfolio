@@ -24,6 +24,7 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <nav
       className={cn(
@@ -37,16 +38,16 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> AshishTech </span>{" "}
+            <span className="text-glow text-foreground">AshishTech</span>{" "}
             Portfolio
           </span>
         </a>
 
-        {/* desktop nav */}
-        <div className="hidden md:flex space-x-8 items-center cursor-pointer">
-          {navItems.map((item, key) => (
+        {/* Desktop Nav */}
+        <div className="hidden md:flex space-x-8 items-center">
+          {navItems.map((item) => (
             <a
-              key={key}
+              key={item.name}
               href={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
@@ -56,19 +57,19 @@ export const Navbar = () => {
           <ThemeToggle />
         </div>
 
-        {/* mobile nav */}
-
+        {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
+        {/* Mobile Nav */}
         <div
           className={cn(
-            "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen
               ? "opacity-100 pointer-events-auto"
@@ -76,9 +77,9 @@ export const Navbar = () => {
           )}
         >
           <div className="flex flex-col space-y-8 text-xl items-center">
-            {navItems.map((item, key) => (
+            {navItems.map((item) => (
               <a
-                key={key}
+                key={item.name}
                 href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}

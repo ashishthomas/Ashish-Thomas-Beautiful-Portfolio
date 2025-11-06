@@ -23,7 +23,7 @@ export const ContactSection = () => {
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
 
-    window.location.href = mailto;
+    globalThis.location.href = mailto;
 
     setTimeout(() => {
       setIsSubmitting(false);

@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A modern, user-friendly e-commerce app for beauty products with authentication, reviews, cart, and seamless shopping experience",
     image: "/projects/Kira-project.png",
-    tags: ["React", "Typescript", "TailwindCSS", "vite"],
+    tags: ["React.Js", "Typescript", "TailwindCSS", "vite"],
     demoUrl: "#",
     githubUrl: "https://github.com/ashishthomas/Kira-Beauty-Ecommerce.git",
   },
@@ -15,7 +15,7 @@ export const projects = [
     description:
       "A modern, user-friendly app for managing books, onboarding checklists, and user support with role-based-routing built using React.",
     image: "/projects/Trade-Excelsior-project.png",
-    tags: ["React", "RBRouting", "MUI", "vite"],
+    tags: ["React.Js", "RoleBasedRouting", "MUI", "vite"],
     demoUrl: "#",
     githubUrl: "https://github.com/ashishthomas/Trade-Excelsior.git",
   },
@@ -32,31 +32,31 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Online Job Portal",
+    title: "Online Job Portal Application",
     description:
-      "A modern online job portal for job seekers and employers, featuring job listings, applications, filtering, and user authentication.",
+      "A modern job portal enabling seekers and employers to connect through listings, applications, filtering, and secure authentication for efficient and streamlined recruitment.",
     image: "/projects/Online-Dream-Career-Portal.png",
-    tags: ["React", "TypeScript", "Tailwind CSS", "vite"],
+    tags: ["React.Js", "TypeScript", "Tailwind CSS", "vite"],
     demoUrl: "#",
     githubUrl: "https://github.com/ashishthomas/Online-Job-Portal.git",
   },
   {
     id: 5,
-    title: "FlowPay - Payment App",
+    title: "FlowPay - Payment One Account App",
     description:
       "A modern payment application enabling secure transactions, fee calculation, and currency management with user-friendly dashboards for personal and business users.",
     image: "/projects/FlowPay-Payment-Application.png",
-    tags: ["React", "TypeScript", "Tailwind CSS", "vite"],
+    tags: ["React.Js", "TypeScript", "Tailwind CSS", "vite"],
     demoUrl: "#",
     githubUrl: "https://github.com/ashishthomas/Payment-flow-app.git",
   },
   {
     id: 6,
-    title: "Nexora Technologies Company Website",
+    title: "Nexora Tech Corporate Website",
     description:
-      "A modern corporate website for Nexora Technologies, showcasing services, portfolio, and expertise with responsive design, fast performance, and seamless user experience for clients and partners.",
+      "A modern corporate website for Nexora Technologies, showcasing services and expertise with responsive design, fast performance, and seamless user experience for clients.",
     image: "/projects/Nexora-Technologies-Corporate-Website.png",
-    tags: ["React", "Next.js", "Tailwind CSS", "vercel"],
+    tags: ["React.Js", "Next.Js", "Tailwind CSS", "vercel"],
     demoUrl: "#",
     githubUrl:
       "https://github.com/ashishthomas/Nexora-Technologies-Corporate-Website.git",

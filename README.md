@@ -20,11 +20,11 @@
 ## 📋 Table of Contents
 
 1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-Features)
+2. [Tech Stack](#️-tech-stack)
+3. [Features](#️-features)
 4. [Quick Start](#-quick-start)
-5. [Screenshots](#-Screenshots)
-6. [Deployment](#-Deployment)
+5. [Screenshots](#️-screenshots)
+6. [Deployment](#️-deployment)
 
 ---
 

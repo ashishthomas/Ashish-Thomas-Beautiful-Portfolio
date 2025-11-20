@@ -50,9 +50,9 @@ const reducer = (state, action) => {
       if (toastId) {
         addToRemoveQueue(toastId);
       } else {
-        state.toasts.forEach((toast) => {
+        for (const toast of state.toasts) {
           addToRemoveQueue(toast.id);
-        });
+        }
       }
 
       return {
@@ -87,9 +87,9 @@ let memoryState = { toasts: [] };
 
 function dispatch(action) {
   memoryState = reducer(memoryState, action);
-  listeners.forEach((listener) => {
+  for (const listener of listeners) {
     listener(memoryState);
-  });
+  }
 }
 
 function toast(props) {

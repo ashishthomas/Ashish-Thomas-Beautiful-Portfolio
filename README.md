@@ -21,10 +21,10 @@
 
 1. [Introduction](#-introduction)
 2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
+3. [Features](#-Features)
 4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+5. [Screenshots](#-Screenshots)
+6. [Deployment](#-Deployment)
 
 ---
 

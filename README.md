@@ -36,7 +36,7 @@ In this tutorial, you'll learn how to build a modern portfolio website using **R
 
 ## ⚙️ Tech Stack
 
-- **React** – Component-based UI development
+- **ReactJs** – Component-based UI development
 - **Vite** – Lightning-fast build tool
 - **TailwindCSS** – Utility-first CSS for styling
 - **Lucide Icons** – Clean and beautiful icon pack
@@ -84,8 +84,8 @@ In this tutorial, you'll learn how to build a modern portfolio website using **R
 ### Clone and Run
 
 ```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
+git clone https://github.com/ashishthomas/Ashish-Thomas-Beautiful-Portfolio.git
+cd Ashish-Thomas-Beautiful-Portfolio
 npm install
 npm run dev
 ```

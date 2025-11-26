@@ -13,7 +13,6 @@ export const skills = [
   // Backend
   { name: "Node.js", level: 50, category: "backend" },
   { name: "MySql", level: 60, category: "backend" },
-  { name: "Java", level: 50, category: "backend" },
 
   // Tools
   { name: "Git/GitHub/GitLab", level: 90, category: "tools" },
